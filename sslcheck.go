@@ -2,6 +2,7 @@ package main
 
 /*TODO
 In case the failure is tls handshake failure, provide reasons
+Reduce connection timeout
 */
 
 import (

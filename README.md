@@ -1,2 +1,3 @@
 # sslcheck
-this project has moved to [empijei/simpletools](https://github.com/empijei/simpletools)
+
+simple tool to check for ssl/tls configuration

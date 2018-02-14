@@ -154,3 +154,7 @@ func (c *Conn) GetServerHello(clientHello *ClientHelloMsg) (*ServerHelloMsg, err
 	}
 	return serverHello, nil
 }
+
+func (sh *ServerHelloMsg) CipherSuite() uint16 {
+	return sh.cipherSuite
+}
